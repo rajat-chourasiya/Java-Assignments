@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+class para{
+	para(int id , String name){
+		System.out.println("Student id is " + id + " and name is "+name); 
+	}
+}
+class Parameterized{
+	public static void main(String[] args){
+		Scanner am = new Scanner(System.in);
+		System.out.println("Enter the id of student ");
+		int i = am.nextInt();
+		int j = am.nextInt();
+		System.out.println("Enter the name of the student ");
+		String  st = am.next();
+		String ts = am.next();
+		para obj = new para(i,st);
+		para obj2 = new para(j,ts);
+	}
+	
+}
