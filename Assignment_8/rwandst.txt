@@ -1,0 +1,2 @@
+Hello first file is created than i am putting into it some text : 
+ hello i am doing a read write and save into a new file 
